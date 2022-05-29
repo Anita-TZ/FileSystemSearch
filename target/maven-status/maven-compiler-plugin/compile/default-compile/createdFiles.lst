@@ -1,6 +1,0 @@
-com\example\filesystem\module\DBfile.class
-com\example\filesystem\service\DBInitial.class
-com\example\filesystem\controller\Controller.class
-module-info.class
-com\example\filesystem\service\DBWrite.class
-com\example\filesystem\Application.class
