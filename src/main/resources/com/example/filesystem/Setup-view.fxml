@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="150" prefWidth="160" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.filesystem.controller.Controller">
+    <children>
+        <Button layoutX="380" layoutY="55" text="Search"  onAction="#onHelloButtonClick" fx:id="button" />
+        <TextField layoutX="55" layoutY="55" prefHeight="30.0" prefWidth="300.0" fx:id="searchBar" />
+        <TextArea layoutX="55.0" layoutY="100.0" prefHeight="350.0" prefWidth="380.0" fx:id="output" />
+
+    </children>
+</AnchorPane>
