@@ -1,5 +1,9 @@
 # FileSystemSearch
-This is a file search GUI. By typing the name of file or the folder, it could list all the filee or foldere path which contains the indicated word in the name.
+This is a file search GUI. 
+
+By typing the name of file or the folder, it could list all the filee or foldere path which contains the indicated word in the name.
+
+Feel free to play with this.
 
 ## MUST NEED BEFORE USED
 - [x] Docker
