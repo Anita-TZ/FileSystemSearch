@@ -17,6 +17,11 @@ Feel free to play with this.
  ``` docker
 docker-compose -f docker-compose.yaml up --build -d
 ```
+
+* Install necessary maven dependency( when running the first time)
+``` 
+mvn install
+```
 * Compile Java file
 ``` 
 mvn clean compile
