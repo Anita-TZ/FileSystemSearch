@@ -37,6 +37,10 @@ mvn exec:java
 
 <img src="demo-3.JPG" width="400">
 
+**Hips:**
+If add new file in the root folder, just re-run java file without restart docker.
+The new file would be added to MySQL.
+
 * Close MySQL in docker
 ``` docker
 docker-compose -f docker-compose.yaml down
