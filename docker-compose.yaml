@@ -12,6 +12,5 @@ services:
       MYSQL_DATABASE: devdb
     ports:
       - 3306:3306
-#    volumes:
-#      - "./MySQL/mysql/table.sql:/docker-entrypoint-initdb.d/table.sql"
+
 
