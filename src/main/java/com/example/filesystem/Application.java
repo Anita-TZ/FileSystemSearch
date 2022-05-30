@@ -1,7 +1,6 @@
 package com.example.filesystem;
 
-import com.example.filesystem.service.DBInitial;
-import com.example.filesystem.service.DBWrite;
+import com.example.filesystem.service.FileManagement;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
@@ -24,18 +23,13 @@ public class Application extends javafx.application.Application {
     public void init() {
 
         String filePath = Paths.get("").toAbsolutePath().toString();
+        //search the file system
+        FileManagement first = new FileManagement(filePath);
+        //create the txt file
+        first.createFileTxt();
+        //read the txt file
+        first.getTxtData();
 
-        //Create a text file with the above file system structure
-        DBInitial data = new DBInitial(filePath);
-        try {
-            data.createFileTxt();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        //Read and insert it into the database.
-        DBWrite input = new DBWrite();
-        input.getTxtData();
-        input.OpenSQL();
     }
 
     public static void main(String[] args) {

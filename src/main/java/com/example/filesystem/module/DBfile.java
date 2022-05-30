@@ -1,13 +1,13 @@
 package com.example.filesystem.module;
 
-public class DBfile {
+public class DBFile {
 
     private String filePath;
     private String fileName;
     private String fileType;
     private int id;
 
-    public DBfile(String name, String path, String type) {
+    public DBFile(String name, String path, String type) {
 
         this.fileName = name;
         this.fileType = type;
@@ -30,7 +30,8 @@ public class DBfile {
     public void setID(int id) {
         this.id = id;
     }
-    public int getID(){
+
+    public int getID() {
         return id;
     }
 }
